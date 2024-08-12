@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+</head>
+
+<body>
+    <!-- offer bar -->
+    <div class="offerbar">
+        Sign Up and GET 20% OFF for your first Order
+        <p id="offer-close"> X</p>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbarlinks">
+            <p class="navbarlink"><a href="index.html">Home</a></p>
+            <p class="navbarlink"><a href="#new-arrivals">New Arrivals</a></p>
+            <p class="navbarlink"><a href="#most-wanted">Most Wanted</a></p>
+            <p class="navbarlink"><a href="collections.html">Collections</a></p>
+            <p class="navbarlink"><a href="contact.html">Contact Us</a></p>
+        </div>
+        <div class="navbarmenu">
+            <img  id="sidebar-open" src="./images/burger-bar.png" alt="">
+        </div>
+    </nav>
+    <!-- sidenav bar -->
+    <div class="sidebar">
+        <div class="sidebar-close">
+            <p>X</p>
+        </div>
+        <p class="navbarlink"><a href="index.html">Home</a></p>
+        <p class="navbarlink"><a href="#new-arrivals">New Arrivals</a></p>
+        <p class="navbarlink"><a href="#most-wanted">Most Wanted</a></p>
+        <p class="navbarlink"><a href="collections.html">Collections</a></p>
+        <p class="navbarlink"><a href="contact.html">Contact Us</a></p>
+    </div>
+
+     <!--contact page-->
+  <section class="p-10 mr-20 ml-20  md:p-20 md:mr-32 md:ml-32 rounded-md bg-gray-800 top-0  justify-center "><br>
+    <h2 class="font-bold ml-3 md:ml-20 text-white text-4xl">contact us</h2><br>
+     <div class="contact ml-3 md:ml-20 ">
+       <label class="text-white">Name:</label><br>
+       <input class="p-1 md:p-3 rounded-md bg-white">
+     </div><br>
+     <div class="contact ml-3 md:ml-20 ">
+       <label class="text-white">Email:</label><br>
+       <input class="p-1 md:p-3 rounded-md bg-white">
+     </div><br>
+     <div class="contact1 ml-3 md:ml-20 ">
+       <label class="text-white">Message:</label><br>
+       <input class= "p-1 md:p-3 rounded-md bg-white">
+     </div><br>
+     <div class=" contact ml-3 md:ml-20">
+       <button class="p-1 md:p-3 rounded-md text-white bg-blue-800">submit</button>
+     </div><br>
+ 
+     </section>
+
+
+    <!-- news letter -->
+    <div class="news">
+        <h2>Join Our News Letter</h2>
+        <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+        <div class="box">
+            <input type="text">
+        </div>
+        <button>Subscribe</button>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-1">
+            <h2 class="headingtext">Nostra</h2>
+            <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest
+
+            </p>
+        </div>
+        <div class="footer-icon">
+            <img style="width:30px;" src="./images/instagram.png" alt="">
+            <img style="width: 30px;" src="./images/twitter.png" alt="">
+            <img style="width: 30px;" src="./images/facebook.jpg" alt="">
+
+        </div>
+        <div>
+            <p>@ 2024 Nostra.com</p>
+        </div>
+
+    </div>
+    <!-- js link -->
+    <script src="contact.js"></script>
+
+</body>
+
+</html>
